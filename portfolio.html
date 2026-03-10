@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — NEXUS Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">NEXUS<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" class="active">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div><div class="orb orb-2"></div>
+    </div>
+    <div class="page-hero-content">
+      <p class="section-label reveal">— Selected Projects</p>
+      <h1 class="reveal">Work we're<br/><em>proud of.</em></h1>
+      <p class="reveal">120+ projects across 4 continents. Here are a few favorites.</p>
+    </div>
+  </section>
+
+  <section class="portfolio-section">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI & Tech</button>
+      <button class="filter-btn" data-filter="brand">Brand</button>
+      <button class="filter-btn" data-filter="web">Web & App</button>
+      <button class="filter-btn" data-filter="motion">Motion</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="port-card" data-cat="ai web">
+        <div class="port-img" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);">
+          <div class="port-hover">
+            <h3>AuraOS Dashboard</h3>
+            <span>AI Platform &bull; Web Design</span>
+            <p>A full-stack AI analytics platform with real-time dashboards and custom ML visualizations.</p>
+            <div class="port-tags"><span>React</span><span>Python</span><span>TensorFlow</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>AuraOS Dashboard</h4><p>AI Platform · Web Design · 2025</p></div>
+      </div>
+
+      <div class="port-card" data-cat="brand">
+        <div class="port-img" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+          <div class="port-hover">
+            <h3>GreenLeaf Co.</h3>
+            <span>Brand Identity</span>
+            <p>Full brand identity from positioning to logo and packaging for a sustainable goods startup.</p>
+            <div class="port-tags"><span>Logo</span><span>Packaging</span><span>Strategy</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>GreenLeaf Co.</h4><p>Brand Identity · 2025</p></div>
+      </div>
+
+      <div class="port-card" data-cat="motion">
+        <div class="port-img" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
+          <div class="port-hover">
+            <h3>Solstice Brand Film</h3>
+            <span>Motion & Video</span>
+            <p>A 3-minute brand film that went viral in 48 hours, earning 2.4M views and a Cannes Lions shortlist.</p>
+            <div class="port-tags"><span>Film</span><span>Motion</span><span>Storytelling</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>Solstice Brand Film</h4><p>Motion & Video · 2024</p></div>
+      </div>
+
+      <div class="port-card" data-cat="web">
+        <div class="port-img" style="background: linear-gradient(135deg, #c94b4b, #4b134f);">
+          <div class="port-hover">
+            <h3>Kiba E-Commerce</h3>
+            <span>Web Design · Development</span>
+            <p>Headless commerce with 3D product visualization and AI-powered size recommendation.</p>
+            <div class="port-tags"><span>Next.js</span><span>Three.js</span><span>Shopify</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>Kiba E-Commerce</h4><p>Web Design · 2024</p></div>
+      </div>
+
+      <div class="port-card" data-cat="ai">
+        <div class="port-img" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+          <div class="port-hover">
+            <h3>NovaMind Chat</h3>
+            <span>AI Integration</span>
+            <p>Custom enterprise LLM assistant trained on client knowledge bases, deployed across 12 clients.</p>
+            <div class="port-tags"><span>LLM</span><span>RAG</span><span>API</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>NovaMind Chat</h4><p>AI Integration · 2024</p></div>
+      </div>
+
+      <div class="port-card" data-cat="brand web">
+        <div class="port-img" style="background: linear-gradient(135deg, #41295a, #2f0743);">
+          <div class="port-hover">
+            <h3>Pulse Health App</h3>
+            <span>Brand · App Design</span>
+            <p>Health monitoring app with biometric tracking, AI health insights, and full brand identity.</p>
+            <div class="port-tags"><span>Mobile</span><span>Health</span><span>AI</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>Pulse Health App</h4><p>Brand · App Design · 2023</p></div>
+      </div>
+
+      <div class="port-card" data-cat="motion web">
+        <div class="port-img" style="background: linear-gradient(135deg, #005c97, #363795);">
+          <div class="port-hover">
+            <h3>Orion SaaS Landing</h3>
+            <span>Web Design · Motion</span>
+            <p>High-converting SaaS landing page with custom WebGL animations. 340% increase in sign-ups.</p>
+            <div class="port-tags"><span>WebGL</span><span>GSAP</span><span>Conversion</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>Orion SaaS Landing</h4><p>Web Design · Motion · 2023</p></div>
+      </div>
+
+      <div class="port-card" data-cat="brand">
+        <div class="port-img" style="background: linear-gradient(135deg, #e96c6c, #f0c27f);">
+          <div class="port-hover">
+            <h3>Terra Restaurant Group</h3>
+            <span>Brand Identity</span>
+            <p>Brand identity spanning menus, signage, packaging, and digital touchpoints for 5 locations.</p>
+            <div class="port-tags"><span>Print</span><span>Digital</span><span>F&B</span></div>
+          </div>
+        </div>
+        <div class="port-info"><h4>Terra Restaurant Group</h4><p>Brand Identity · 2023</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clients-section">
+    <p class="section-label" style="text-align:center;">Trusted By</p>
+    <div class="clients-row">
+      <div class="client-logo">BrightPath</div>
+      <div class="client-logo">NovaSphere</div>
+      <div class="client-logo">GreenLeaf</div>
+      <div class="client-logo">Kiba</div>
+      <div class="client-logo">Solstice</div>
+      <div class="client-logo">Orion</div>
+      <div class="client-logo">Terra</div>
+      <div class="client-logo">PulseHealth</div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="cta-content">
+      <h2>Your project<br/><em>could be next.</em></h2>
+      <a href="contact.html" class="btn-primary large">Start a Project</a>
+    </div>
+    <div class="cta-deco">
+      <div class="deco-circle c1"></div><div class="deco-circle c2"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="nav-logo">NEXUS<span>.</span></span>
+        <p>AI & Design Studio<br/>Building futures, pixel by pixel.</p>
+        <div class="socials">
+          <a href="#">𝕏</a><a href="#">in</a><a href="#">⬡</a><a href="#">◎</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="fl-col">
+          <strong>Studio</strong>
+          <a href="about.html">About</a><a href="services.html">Services</a>
+          <a href="portfolio.html">Work</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="fl-col">
+          <strong>Services</strong>
+          <a href="services.html">AI Integration</a><a href="services.html">Brand Identity</a>
+          <a href="services.html">Web Design</a><a href="services.html">Motion & Video</a>
+        </div>
+        <div class="fl-col">
+          <strong>Contact</strong>
+          <a href="mailto:hello@nexusstudio.io">hello@nexusstudio.io</a>
+          <a href="tel:+254700000000">+254 700 000 000</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 NEXUS Studio. All rights reserved.</p>
+      <p>Crafted with ♥ &amp; caffeine</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
